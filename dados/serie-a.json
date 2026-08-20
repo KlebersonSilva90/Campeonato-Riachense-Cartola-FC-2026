@@ -1,0 +1,3409 @@
+{
+  "serie": "A",
+  "fonte": "Serie A2.xlsm",
+  "atualizadoEm": "2026-08-19T16:19:54",
+  "regraResultado": {
+    "vitoriaDiferencaMinima": 5,
+    "pontosVitoria": 3,
+    "pontosEmpate": 1
+  },
+  "classificacao": [
+    {
+      "posicao": 1,
+      "time": "Atlanta J.L 812",
+      "pontos": 10,
+      "jogos": 4,
+      "vitorias": 3,
+      "empates": 1,
+      "derrotas": 0,
+      "pontosMarcados": 332.88,
+      "pontosSofridos": 249.73,
+      "saldo": 83.15,
+      "media": 83.22
+    },
+    {
+      "posicao": 2,
+      "time": "JP90",
+      "pontos": 10,
+      "jogos": 4,
+      "vitorias": 3,
+      "empates": 1,
+      "derrotas": 0,
+      "pontosMarcados": 362.62,
+      "pontosSofridos": 313.54,
+      "saldo": 49.08,
+      "media": 90.66
+    },
+    {
+      "posicao": 3,
+      "time": "expresso riachense",
+      "pontos": 9,
+      "jogos": 4,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 1,
+      "pontosMarcados": 341.88,
+      "pontosSofridos": 299.69,
+      "saldo": 42.19,
+      "media": 85.47
+    },
+    {
+      "posicao": 4,
+      "time": "Óia o rato!",
+      "pontos": 9,
+      "jogos": 4,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 1,
+      "pontosMarcados": 337.12,
+      "pontosSofridos": 307.44,
+      "saldo": 29.68,
+      "media": 84.28
+    },
+    {
+      "posicao": 5,
+      "time": "D!NO F.C 10",
+      "pontos": 9,
+      "jogos": 4,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 1,
+      "pontosMarcados": 349.18,
+      "pontosSofridos": 322.65,
+      "saldo": 26.53,
+      "media": 87.3
+    },
+    {
+      "posicao": 6,
+      "time": "Águia Dourada 13",
+      "pontos": 9,
+      "jogos": 4,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 1,
+      "pontosMarcados": 334.82,
+      "pontosSofridos": 325.65,
+      "saldo": 9.17,
+      "media": 83.7
+    },
+    {
+      "posicao": 7,
+      "time": "Arsenal PE 87",
+      "pontos": 7,
+      "jogos": 4,
+      "vitorias": 2,
+      "empates": 1,
+      "derrotas": 1,
+      "pontosMarcados": 356.52,
+      "pontosSofridos": 340.46,
+      "saldo": 16.06,
+      "media": 89.13
+    },
+    {
+      "posicao": 8,
+      "time": "Black Up City",
+      "pontos": 7,
+      "jogos": 4,
+      "vitorias": 2,
+      "empates": 1,
+      "derrotas": 1,
+      "pontosMarcados": 326.9,
+      "pontosSofridos": 312.53,
+      "saldo": 14.37,
+      "media": 81.72
+    },
+    {
+      "posicao": 9,
+      "time": "Cabugi SC",
+      "pontos": 6,
+      "jogos": 4,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 2,
+      "pontosMarcados": 324.02,
+      "pontosSofridos": 281.52,
+      "saldo": 42.5,
+      "media": 81.0
+    },
+    {
+      "posicao": 10,
+      "time": "onça pintanda HD 13",
+      "pontos": 6,
+      "jogos": 4,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 2,
+      "pontosMarcados": 335.27,
+      "pontosSofridos": 334.67,
+      "saldo": 0.6,
+      "media": 83.82
+    },
+    {
+      "posicao": 11,
+      "time": "TEAM CBUM",
+      "pontos": 5,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 2,
+      "derrotas": 1,
+      "pontosMarcados": 310.17,
+      "pontosSofridos": 297.02,
+      "saldo": 13.15,
+      "media": 77.54
+    },
+    {
+      "posicao": 12,
+      "time": "kaio paredão FC 01",
+      "pontos": 5,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 2,
+      "derrotas": 1,
+      "pontosMarcados": 312.13,
+      "pontosSofridos": 319.25,
+      "saldo": -7.12,
+      "media": 78.03
+    },
+    {
+      "posicao": 13,
+      "time": "Atletico Juventus T.C",
+      "pontos": 5,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 2,
+      "derrotas": 1,
+      "pontosMarcados": 328.48,
+      "pontosSofridos": 337.79,
+      "saldo": -9.31,
+      "media": 82.12
+    },
+    {
+      "posicao": 14,
+      "time": "Coquinho bebidas",
+      "pontos": 4,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 1,
+      "derrotas": 2,
+      "pontosMarcados": 297.74,
+      "pontosSofridos": 334.12,
+      "saldo": -36.38,
+      "media": 74.44
+    },
+    {
+      "posicao": 15,
+      "time": "KENNEDY TEAM",
+      "pontos": 3,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 3,
+      "pontosMarcados": 288.87,
+      "pontosSofridos": 322.83,
+      "saldo": -33.96,
+      "media": 72.22
+    },
+    {
+      "posicao": 16,
+      "time": "Alison FCC",
+      "pontos": 3,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 3,
+      "pontosMarcados": 305.97,
+      "pontosSofridos": 353.09,
+      "saldo": -47.12,
+      "media": 76.49
+    },
+    {
+      "posicao": 17,
+      "time": "Serra Verde Futebol Club",
+      "pontos": 2,
+      "jogos": 4,
+      "vitorias": 0,
+      "empates": 2,
+      "derrotas": 2,
+      "pontosMarcados": 310.85,
+      "pontosSofridos": 319.43,
+      "saldo": -8.58,
+      "media": 77.71
+    },
+    {
+      "posicao": 18,
+      "time": "Alex Antenas",
+      "pontos": 1,
+      "jogos": 4,
+      "vitorias": 0,
+      "empates": 1,
+      "derrotas": 3,
+      "pontosMarcados": 309.51,
+      "pontosSofridos": 328.57,
+      "saldo": -19.06,
+      "media": 77.38
+    },
+    {
+      "posicao": 19,
+      "time": "Brasmanha SC",
+      "pontos": 1,
+      "jogos": 4,
+      "vitorias": 0,
+      "empates": 1,
+      "derrotas": 3,
+      "pontosMarcados": 295.77,
+      "pontosSofridos": 356.86,
+      "saldo": -61.09,
+      "media": 73.94
+    },
+    {
+      "posicao": 20,
+      "time": "Belo Tricolor",
+      "pontos": 1,
+      "jogos": 4,
+      "vitorias": 0,
+      "empates": 1,
+      "derrotas": 3,
+      "pontosMarcados": 244.64,
+      "pontosSofridos": 348.5,
+      "saldo": -103.86,
+      "media": 61.16
+    }
+  ],
+  "rodadas": [
+    {
+      "numero": 1,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": 105.46,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": 100.21,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": 104.91,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": 108.71,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": 120.41,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": 86.91,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": 107.91,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": 94.62,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": 88.41,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": 106.81,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": 127.21,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": 70.41,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": 111.01,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": 85.61,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": 75.01,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": 116.31,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": 105.31,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": 97.01,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": 94.01,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": 100.41,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": 63.06,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": 65.38,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": 82.65,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": 94.5,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": 92.45,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": 80.75,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": 89.4,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": 76.71,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": 79.15,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": 85.11,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": 76.25,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": 88.11,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": 75.28,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": 97.58,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": 84.15,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": 78.55,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": 69.35,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": 84.5,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": 91.05,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": 94.34,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": 39.95,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": 69.01,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": 79.96,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": 72.91,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": 66.61,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": 70.9,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": 65.81,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": 79.81,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": 82.16,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": 77.51,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": 61.6,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": 53.6,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": 66.81,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": 78.26,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": 86.96,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": 72.31,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": 71.81,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": 79.16,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": 80.21,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": 95.26,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": 56.37,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": 59.57,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": 51.35,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": 49.33,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": 76.11,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": 44.97,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": 86.9,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": 71.22,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": 61.75,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": 75.27,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": 62.45,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": 78.45,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": 61.85,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": 65.07,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": 76.15,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": 57.77,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": 65.27,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": 56.45,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": 66.05,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": 77.4,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 17,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 18,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 19,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Mario Jorge",
+            "time": "Atletico Juventus T.C",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Jailson",
+            "time": "expresso riachense",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kaio Henrique",
+            "time": "kaio paredão FC 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Coquinho",
+            "time": "Coquinho bebidas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ruan Jose",
+            "time": "TEAM CBUM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Janailson Eugênio",
+            "time": "Serra Verde Futebol Club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "jR. Miranda",
+            "time": "Black Up City",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque",
+            "time": "Brasmanha SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kennedy Gilbert",
+            "time": "KENNEDY TEAM",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rafael Justo",
+            "time": "Cabugi SC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Jose Carlos",
+            "time": "Atlanta J.L 812",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "jadiel",
+            "time": "D!NO F.C 10",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Peixoto",
+            "time": "JP90",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Severino Anderson",
+            "time": "Óia o rato!",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Igor",
+            "time": "Águia Dourada 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Taylon",
+            "time": "Arsenal PE 87",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "onça pintanda HD 13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alexandre",
+            "time": "Belo Tricolor",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex Aldir",
+            "time": "Alex Antenas",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alison",
+            "time": "Alison FCC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    }
+  ]
+}

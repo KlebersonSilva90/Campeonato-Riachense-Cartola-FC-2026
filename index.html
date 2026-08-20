@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="img/ball_873582.png" type="image/x-icon" />
+
+    <title>Melhores da Rodada</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- SPLASH -->
+
+    <div id="splash">
+      <img id="splashImg" src="img/Capa.png" alt="Splash" />
+    </div>
+
+    <!-- SITE -->
+    <div id="site">
+      <div id="topo">CAMPEONATO MANEPEKO RIACHENSE CARTOLA FC</div>
+
+      <nav class="menu" aria-label="Competições">
+        <a href="index.html" class="ativo" aria-current="page" data-splash="img/Capa.png"
+          >MELHORES DA RODADA</a
+        >
+        <a href="times/index.html" data-splash="img/Capa.png">TIMES</a>
+        <a href="serie-A/index.html" data-splash="img/SerieA.png">SÉRIE A</a>
+        <a href="serie-B/index.html" data-splash="img/SerieB.png">SÉRIE B</a>
+        <a href="serie-C/index.html" data-splash="img/SerieC.png">SÉRIE C</a>
+        <a href="serie-D/index.html" data-splash="img/SerieD.png">SÉRIE D</a>
+        <a href="serie-E/index.html" data-splash="img/SerieE.png">SÉRIE E</a>
+        <a href="libertadores/index.html" data-splash="img/Libertadores.png"
+          >LIBERTADORES</a
+        >
+        <a href="copadobrasil/index.html" data-splash="img/CopadoBrasil.png"
+          >COPA DO BRASIL</a
+        >
+      </nav>
+
+      <section class="conteudo-principal">
+        <header class="cabecalho-destaques">
+          <div>
+            <h1>MELHORES DA RODADA</h1>
+            <p id="status-destaques" class="status-dados" role="status">Carregando dados dos campeonatos…</p>
+          </div>
+          <label class="controle-rodada-home">
+            <span>Rodada</span>
+            <select id="seletor-rodada-home" aria-label="Selecionar rodada"></select>
+          </label>
+        </header>
+
+        <section class="destaque-geral" aria-labelledby="titulo-melhor-geral">
+          <p class="rotulo-destaque">MELHOR PONTUAÇÃO GERAL</p>
+          <h2 id="titulo-melhor-geral">—</h2>
+          <p id="cartoleiro-melhor-geral">—</p>
+          <strong id="pontuacao-melhor-geral" class="pontuacao-destaque">—</strong>
+          <span id="serie-melhor-geral" class="selo-serie">—</span>
+        </section>
+
+        <section aria-labelledby="titulo-melhores-series">
+          <h2 id="titulo-melhores-series">DESTAQUES POR SÉRIE</h2>
+          <div id="melhores-por-serie" class="grade-series"></div>
+        </section>
+
+        <section aria-labelledby="titulo-estatisticas">
+          <h2 id="titulo-estatisticas">ESTATÍSTICAS DA RODADA</h2>
+          <div class="grade-estatisticas">
+            <article><strong id="total-partidas">—</strong><span>Partidas</span></article>
+            <article><strong id="total-vitorias">—</strong><span>Vitórias</span></article>
+            <article><strong id="total-empates">—</strong><span>Empates</span></article>
+            <article><strong id="total-nao-escalou">—</strong><span>Não escalaram</span></article>
+          </div>
+        </section>
+
+        <section class="grade-curiosidades" aria-label="Outros destaques da rodada">
+          <article class="cartao-curiosidade">
+            <span>MAIOR VITÓRIA</span><strong id="maior-vitoria">—</strong><p id="detalhe-maior-vitoria">—</p>
+          </article>
+          <article class="cartao-curiosidade">
+            <span>CONFRONTO MAIS EQUILIBRADO</span><strong id="mais-equilibrado">—</strong><p id="detalhe-mais-equilibrado">—</p>
+          </article>
+        </section>
+
+        <section id="painel-nao-escalados" class="painel-nao-escalados" aria-labelledby="titulo-nao-escalados">
+          <h2 id="titulo-nao-escalados">NÃO ESCALARAM</h2>
+          <ul id="lista-nao-escalados"></ul>
+        </section>
+
+        <hr class="divisor-home" />
+        <h2>CONFIRA NOSSOS CAMPEÕES</h2>
+        <p>Supere seus adversários e grave seu nome em nossa história!</p>
+        <img
+          src="img/Campeoes.png"
+          alt="Campeões"
+          class="imagem-centralizada"
+        />
+      </section>
+    </div>
+
+    <script src="js/navegacao.js"></script>
+    <script src="js/destaques.js"></script>
+  </body>
+</html>

@@ -1,0 +1,3409 @@
+{
+  "serie": "C",
+  "fonte": "Serie C2.xlsm",
+  "atualizadoEm": "2026-08-18T16:41:43",
+  "regraResultado": {
+    "vitoriaDiferencaMinima": 5,
+    "pontosVitoria": 3,
+    "pontosEmpate": 1
+  },
+  "classificacao": [
+    {
+      "posicao": 1,
+      "time": "Sociedad Football",
+      "pontos": 10,
+      "jogos": 4,
+      "vitorias": 3,
+      "empates": 1,
+      "derrotas": 0,
+      "pontosMarcados": 318.96,
+      "pontosSofridos": 214.31,
+      "saldo": 104.65,
+      "media": 79.74
+    },
+    {
+      "posicao": 2,
+      "time": "Raio negro hd",
+      "pontos": 10,
+      "jogos": 4,
+      "vitorias": 3,
+      "empates": 1,
+      "derrotas": 0,
+      "pontosMarcados": 385.18,
+      "pontosSofridos": 320.03,
+      "saldo": 65.15,
+      "media": 96.29
+    },
+    {
+      "posicao": 3,
+      "time": "Cangaceiros Unnited FC",
+      "pontos": 9,
+      "jogos": 4,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 1,
+      "pontosMarcados": 356.84,
+      "pontosSofridos": 270.13,
+      "saldo": 86.71,
+      "media": 89.21
+    },
+    {
+      "posicao": 4,
+      "time": "maurícioriachesse",
+      "pontos": 9,
+      "jogos": 4,
+      "vitorias": 3,
+      "empates": 0,
+      "derrotas": 1,
+      "pontosMarcados": 378.28,
+      "pontosSofridos": 325.59,
+      "saldo": 52.69,
+      "media": 94.57
+    },
+    {
+      "posicao": 5,
+      "time": "Camuri futebol club",
+      "pontos": 8,
+      "jogos": 4,
+      "vitorias": 2,
+      "empates": 2,
+      "derrotas": 0,
+      "pontosMarcados": 331.92,
+      "pontosSofridos": 247.64,
+      "saldo": 84.28,
+      "media": 82.98
+    },
+    {
+      "posicao": 6,
+      "time": "timão.riacho.FC.13",
+      "pontos": 7,
+      "jogos": 4,
+      "vitorias": 2,
+      "empates": 1,
+      "derrotas": 1,
+      "pontosMarcados": 244.21,
+      "pontosSofridos": 191.63,
+      "saldo": 52.58,
+      "media": 61.05
+    },
+    {
+      "posicao": 7,
+      "time": "Louco Fc 01",
+      "pontos": 7,
+      "jogos": 4,
+      "vitorias": 2,
+      "empates": 1,
+      "derrotas": 1,
+      "pontosMarcados": 324.62,
+      "pontosSofridos": 276.16,
+      "saldo": 48.46,
+      "media": 81.16
+    },
+    {
+      "posicao": 8,
+      "time": "Racionais FC_81",
+      "pontos": 7,
+      "jogos": 4,
+      "vitorias": 2,
+      "empates": 1,
+      "derrotas": 1,
+      "pontosMarcados": 280.48,
+      "pontosSofridos": 235.17,
+      "saldo": 45.31,
+      "media": 70.12
+    },
+    {
+      "posicao": 9,
+      "time": "SEPalmeiras Imponente",
+      "pontos": 7,
+      "jogos": 4,
+      "vitorias": 2,
+      "empates": 1,
+      "derrotas": 1,
+      "pontosMarcados": 326.96,
+      "pontosSofridos": 337.68,
+      "saldo": -10.72,
+      "media": 81.74
+    },
+    {
+      "posicao": 10,
+      "time": "Contenda 1995 Fc",
+      "pontos": 6,
+      "jogos": 4,
+      "vitorias": 2,
+      "empates": 0,
+      "derrotas": 2,
+      "pontosMarcados": 235.39,
+      "pontosSofridos": 238.32,
+      "saldo": -2.93,
+      "media": 58.85
+    },
+    {
+      "posicao": 11,
+      "time": "pikachu 34",
+      "pontos": 6,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 3,
+      "derrotas": 0,
+      "pontosMarcados": 356.97,
+      "pontosSofridos": 279.64,
+      "saldo": 77.33,
+      "media": 89.24
+    },
+    {
+      "posicao": 12,
+      "time": "McDonald's DCR",
+      "pontos": 5,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 2,
+      "derrotas": 1,
+      "pontosMarcados": 309.05,
+      "pontosSofridos": 307.44,
+      "saldo": 1.61,
+      "media": 77.26
+    },
+    {
+      "posicao": 13,
+      "time": "KORINCHASU",
+      "pontos": 4,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 1,
+      "derrotas": 2,
+      "pontosMarcados": 346.68,
+      "pontosSofridos": 345.86,
+      "saldo": 0.82,
+      "media": 86.67
+    },
+    {
+      "posicao": 14,
+      "time": "Álef Pitbull",
+      "pontos": 4,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 1,
+      "derrotas": 2,
+      "pontosMarcados": 293.06,
+      "pontosSofridos": 323.62,
+      "saldo": -30.56,
+      "media": 73.26
+    },
+    {
+      "posicao": 15,
+      "time": "Patativa Celeste FC",
+      "pontos": 4,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 1,
+      "derrotas": 2,
+      "pontosMarcados": 183.06,
+      "pontosSofridos": 319.24,
+      "saldo": -136.18,
+      "media": 45.77
+    },
+    {
+      "posicao": 16,
+      "time": "Nelore myo",
+      "pontos": 3,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 3,
+      "pontosMarcados": 284.83,
+      "pontosSofridos": 333.84,
+      "saldo": -49.01,
+      "media": 71.21
+    },
+    {
+      "posicao": 17,
+      "time": "Inter Movistar 14",
+      "pontos": 3,
+      "jogos": 4,
+      "vitorias": 1,
+      "empates": 0,
+      "derrotas": 3,
+      "pontosMarcados": 175.71,
+      "pontosSofridos": 265.08,
+      "saldo": -89.37,
+      "media": 43.93
+    },
+    {
+      "posicao": 18,
+      "time": "FJM Miranda FC",
+      "pontos": 1,
+      "jogos": 4,
+      "vitorias": 0,
+      "empates": 1,
+      "derrotas": 3,
+      "pontosMarcados": 219.17,
+      "pontosSofridos": 287.16,
+      "saldo": -67.99,
+      "media": 54.79
+    },
+    {
+      "posicao": 19,
+      "time": "Nautico1998",
+      "pontos": 1,
+      "jogos": 4,
+      "vitorias": 0,
+      "empates": 1,
+      "derrotas": 3,
+      "pontosMarcados": 199.25,
+      "pontosSofridos": 282.8,
+      "saldo": -83.55,
+      "media": 49.81
+    },
+    {
+      "posicao": 20,
+      "time": "Bruno_007MTB",
+      "pontos": 0,
+      "jogos": 4,
+      "vitorias": 0,
+      "empates": 0,
+      "derrotas": 4,
+      "pontosMarcados": 185.53,
+      "pontosSofridos": 334.81,
+      "saldo": -149.28,
+      "media": 46.38
+    }
+  ],
+  "rodadas": [
+    {
+      "numero": 1,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": 103.78,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": 130.63,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": 88.01,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": 109.62,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": 117.93,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": 42.2,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": 105.71,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": 44.58,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": 66.75,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": 104.51,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": 120.61,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": 87.57,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": 121.66,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": 122.11,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": 46.48,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": 108.45,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": 93.28,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": 17.08,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": 88.51,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": 90.01,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": 75.95,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": 88.45,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": 83.58,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": 82.55,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": 87.53,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": 89.06,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": 86.2,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": 0,
+            "resultado": "D",
+            "naoEscalou": true
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": 91.9,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": 80.13,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": 84.74,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": 70,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": 55.55,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": 60.26,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": 91.93,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": 66.19,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": 72.91,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": 83.61,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": 71.01,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": 82.78,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": 0,
+            "resultado": "E",
+            "naoEscalou": true
+          },
+          "visitante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": 0,
+            "resultado": "E",
+            "naoEscalou": true
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": 0,
+            "resultado": "D",
+            "naoEscalou": true
+          },
+          "visitante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": 66.81,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": 71.61,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": 84.21,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": 0,
+            "resultado": "D",
+            "naoEscalou": true
+          },
+          "visitante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": 58.61,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": 83.31,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": 99.71,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": 94.66,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": 78.01,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": 73.81,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": 71.6,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": 49.74,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": 58.86,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": 66.55,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": 55.55,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": 73.95,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": 75.61,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": 81.54,
+            "resultado": "E",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": 86.3,
+            "resultado": "E",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": 41.97,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": 72.44,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": 87.57,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": 70.07,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": 78.1,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": 55.65,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": 59.94,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": 42.77,
+            "resultado": "D",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": 51.02,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": 75.15,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": 77.15,
+            "resultado": "V",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": 0,
+            "resultado": "D",
+            "naoEscalou": true
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": 67.77,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": 78.85,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": 51.95,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": 57.28,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": 54.15,
+            "resultado": "D",
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": 70.07,
+            "resultado": "V",
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 17,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 18,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    },
+    {
+      "numero": 19,
+      "partidas": [
+        {
+          "mandante": {
+            "cartoleiro": "José Pierre",
+            "time": "SEPalmeiras Imponente",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Robson",
+            "time": "Camuri futebol club",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Bruno Leonardo",
+            "time": "Bruno_007MTB",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Alex",
+            "time": "KORINCHASU",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Felipe Cardoso",
+            "time": "Cangaceiros Unnited FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Maurício",
+            "time": "maurícioriachesse",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Matheus Oliveira",
+            "time": "Inter Movistar 14",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Matheus Silva",
+            "time": "McDonald's DCR",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Leandro Luiz",
+            "time": "Nelore myo",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Andre Santos",
+            "time": "timão.riacho.FC.13",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Heider",
+            "time": "Raio negro hd",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Ton Do Corte",
+            "time": "Racionais FC_81",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Welliton",
+            "time": "pikachu 34",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Rauanderson",
+            "time": "Contenda 1995 Fc",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Mikhail Azevedo",
+            "time": "Nautico1998",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "José lucas",
+            "time": "Louco Fc 01",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Kayque Gomes",
+            "time": "Sociedad Football",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Felipe Miranda",
+            "time": "FJM Miranda FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        },
+        {
+          "mandante": {
+            "cartoleiro": "Álef Silva",
+            "time": "Álef Pitbull",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          },
+          "visitante": {
+            "cartoleiro": "Irakitan Villa",
+            "time": "Patativa Celeste FC",
+            "pontuacao": null,
+            "resultado": null,
+            "naoEscalou": false
+          }
+        }
+      ]
+    }
+  ]
+}

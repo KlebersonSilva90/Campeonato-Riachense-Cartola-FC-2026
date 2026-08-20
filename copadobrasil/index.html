@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/ball_873582.png" type="image/x-icon" />
+    <title>Copa do Brasil</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../js/navegacao.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="splash">
+      <img id="splashImg" src="../img/CopadoBrasil.png" alt="Apresentação da Copa do Brasil" />
+    </div>
+
+    <div id="site">
+    <div id="topo">CAMPEONATO RIACHENSE CARTOLA FC</div>
+
+    <nav class="menu" aria-label="Competições">
+      <a href="../index.html" data-splash="../img/Capa.png">MELHORES DA RODADA</a>
+      <a href="../times/index.html" data-splash="../img/Capa.png">TIMES</a>
+      <a href="../serie-A/index.html" data-splash="../img/SerieA.png">SÉRIE A</a>
+      <a href="../serie-B/index.html" data-splash="../img/SerieB.png">SÉRIE B</a>
+      <a href="../serie-C/index.html" data-splash="../img/SerieC.png">SÉRIE C</a>
+      <a href="../serie-D/index.html" data-splash="../img/SerieD.png">SÉRIE D</a>
+      <a href="../serie-E/index.html" data-splash="../img/SerieE.png">SÉRIE E</a>
+      <a href="../libertadores/index.html" data-splash="../img/Libertadores.png">LIBERTADORES</a>
+      <a href="index.html" class="ativo" aria-current="page" data-splash="../img/CopadoBrasil.png">COPA DO BRASIL</a>
+    </nav>
+
+    <nav class="menu" aria-label="Navegação auxiliar">
+      <button onclick="window.location.href = '../index.html'">VOLTAR</button>
+    </nav>
+
+    <section class="conteudo-serie">
+      <div class="rodadas-header">
+        <button class="seta" type="button" aria-label="Fase anterior" onclick="trocarFase(-1)">◀</button>
+        <span id="titulo-fase">PRIMEIRA FASE</span>
+        <button class="seta" type="button" aria-label="Próxima fase" onclick="trocarFase(1)">▶</button>
+      </div>
+
+      <h2>CONFRONTOS</h2>
+      <img
+        id="imagem-fase"
+        src="primeira-fase.png"
+        class="imagem"
+        alt="Fase"
+      />
+    </section>
+    </div>
+  </body>
+</html>

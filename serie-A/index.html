@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/ball_873582.png" type="image/x-icon" />
+    <title>Série A</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../js/navegacao.js" defer></script>
+    <script src="../js/campeonato.js" defer></script>
+  </head>
+  <body data-serie="A" data-dados-url="../dados/serie-a.json" data-posicoes-acesso="0">
+    <div id="splash">
+      <img id="splashImg" src="../img/SerieA.png" alt="Apresentação da Série A" />
+    </div>
+
+    <div id="site">
+      <div id="topo">CAMPEONATO RIACHENSE CARTOLA FC</div>
+
+      <nav class="menu" aria-label="Competições">
+        <a href="../index.html" data-splash="../img/Capa.png">MELHORES DA RODADA</a>
+        <a href="../times/index.html" data-splash="../img/Capa.png">TIMES</a>
+        <a
+          href="index.html"
+          class="ativo"
+          aria-current="page"
+          data-splash="../img/SerieA.png"
+          >SÉRIE A</a
+        >
+        <a href="../serie-B/index.html" data-splash="../img/SerieB.png">SÉRIE B</a>
+        <a href="../serie-C/index.html" data-splash="../img/SerieC.png">SÉRIE C</a>
+        <a href="../serie-D/index.html" data-splash="../img/SerieD.png">SÉRIE D</a>
+        <a href="../serie-E/index.html" data-splash="../img/SerieE.png">SÉRIE E</a>
+        <a href="../libertadores/index.html" data-splash="../img/Libertadores.png"
+          >LIBERTADORES</a
+        >
+        <a href="../copadobrasil/index.html" data-splash="../img/CopadoBrasil.png"
+          >COPA DO BRASIL</a
+        >
+      </nav>
+
+      <nav class="menu" aria-label="Navegação auxiliar">
+        <button onclick="window.location.href = '../index.html'">VOLTAR</button>
+      </nav>
+
+      <section class="conteudo-serie">
+        <h2>CLASSIFICAÇÃO</h2>
+        <p id="status-dados" class="status-dados" role="status">Carregando dados da planilha…</p>
+
+        <div class="tabela-container" tabindex="0" aria-label="Classificação da Série A; deslize horizontalmente para ver todas as colunas">
+          <table class="tabela-classificacao">
+            <caption class="sr-only">Classificação atual da Série A</caption>
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">TIME</th>
+                <th scope="col" title="Pontos">PTS</th>
+                <th scope="col" title="Jogos">J</th>
+                <th scope="col" title="Vitórias">V</th>
+                <th scope="col" title="Empates">E</th>
+                <th scope="col" title="Derrotas">D</th>
+                <th scope="col" title="Pontos marcados">PM</th>
+                <th scope="col" title="Pontos sofridos">PS</th>
+                <th scope="col">SALDO</th>
+                <th scope="col">MÉDIA</th>
+              </tr>
+            </thead>
+            <tbody id="corpo-classificacao"></tbody>
+          </table>
+        </div>
+
+        <div class="rodadas-header">
+          <button class="seta" type="button" aria-label="Rodada anterior" onclick="trocarRodadaDados(-1)">◀</button>
+          <span id="titulo-rodada">1ª RODADA</span>
+          <button class="seta" type="button" aria-label="Próxima rodada" onclick="trocarRodadaDados(1)">▶</button>
+        </div>
+
+        <div id="lista-partidas" class="lista-partidas" aria-live="polite"></div>
+
+        <div id="fallback-serie" hidden>
+          <p class="estado-dados">Exibindo as imagens de reserva.</p>
+          <img src="classificacao.png" class="imagem" alt="Classificação Série A" />
+          <img src="rodadas/rodada1.png" class="imagem" alt="Primeira rodada da Série A" />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

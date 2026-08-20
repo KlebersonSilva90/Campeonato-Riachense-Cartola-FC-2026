@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/ball_873582.png" type="image/x-icon" />
+    <title>Histórico dos Times</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../js/navegacao.js" defer></script>
+    <script src="../js/times.js" defer></script>
+  </head>
+  <body>
+    <div id="splash">
+      <img id="splashImg" src="../img/Capa.png" alt="Apresentação do campeonato" />
+    </div>
+
+    <div id="site">
+      <div id="topo">CAMPEONATO RIACHENSE CARTOLA FC</div>
+
+      <nav class="menu" aria-label="Competições">
+        <a href="../index.html" data-splash="../img/Capa.png">MELHORES DA RODADA</a>
+        <a href="index.html" class="ativo" aria-current="page" data-splash="../img/Capa.png">TIMES</a>
+        <a href="../serie-A/index.html" data-splash="../img/SerieA.png">SÉRIE A</a>
+        <a href="../serie-B/index.html" data-splash="../img/SerieB.png">SÉRIE B</a>
+        <a href="../serie-C/index.html" data-splash="../img/SerieC.png">SÉRIE C</a>
+        <a href="../serie-D/index.html" data-splash="../img/SerieD.png">SÉRIE D</a>
+        <a href="../serie-E/index.html" data-splash="../img/SerieE.png">SÉRIE E</a>
+        <a href="../libertadores/index.html" data-splash="../img/Libertadores.png">LIBERTADORES</a>
+        <a href="../copadobrasil/index.html" data-splash="../img/CopadoBrasil.png">COPA DO BRASIL</a>
+      </nav>
+
+      <main class="conteudo-principal pagina-times">
+        <header class="cabecalho-times">
+          <div>
+            <h1>HISTÓRICO DOS TIMES</h1>
+            <p id="status-times" class="status-dados" role="status">Carregando campeonatos…</p>
+          </div>
+          <div class="filtros-times">
+            <label>
+              <span>Série</span>
+              <select id="seletor-serie" aria-label="Selecionar série"></select>
+            </label>
+            <label>
+              <span>Time</span>
+              <select id="seletor-time" aria-label="Selecionar time"></select>
+            </label>
+          </div>
+        </header>
+
+        <section class="perfil-time" aria-labelledby="nome-time">
+          <div>
+            <span id="serie-time" class="selo-serie">SÉRIE —</span>
+            <h2 id="nome-time">Selecione um time</h2>
+            <p id="nome-cartoleiro">—</p>
+          </div>
+          <div class="posicao-time">
+            <span>POSIÇÃO ATUAL</span>
+            <strong id="posicao-atual">—</strong>
+          </div>
+        </section>
+
+        <section aria-labelledby="titulo-resumo-time">
+          <h2 id="titulo-resumo-time">RESUMO DA CAMPANHA</h2>
+          <div class="grade-resumo-time">
+            <article><strong id="jogos-time">—</strong><span>Jogos</span></article>
+            <article><strong id="pontos-time">—</strong><span>Pontos</span></article>
+            <article><strong id="media-time">—</strong><span>Média</span></article>
+            <article><strong id="melhor-rodada-time">—</strong><span>Melhor rodada</span></article>
+            <article><strong id="pior-rodada-time">—</strong><span>Pior rodada</span></article>
+          </div>
+          <div class="campanha-time" aria-label="Resultados da campanha">
+            <span class="resultado-v"><strong id="vitorias-time">—</strong> vitórias</span>
+            <span class="resultado-e"><strong id="empates-time">—</strong> empates</span>
+            <span class="resultado-d"><strong id="derrotas-time">—</strong> derrotas</span>
+            <span id="sequencia-time">Sequência: —</span>
+          </div>
+        </section>
+
+        <section aria-labelledby="titulo-evolucao-time">
+          <h2 id="titulo-evolucao-time">EVOLUÇÃO POR RODADA</h2>
+          <p class="ajuda-grafico">As barras representam a pontuação; a posição mostra a colocação após cada rodada.</p>
+          <div id="grafico-evolucao" class="grafico-evolucao"></div>
+        </section>
+
+        <section aria-labelledby="titulo-confrontos-time">
+          <h2 id="titulo-confrontos-time">CONFRONTOS</h2>
+          <div id="historico-confrontos" class="historico-confrontos"></div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
