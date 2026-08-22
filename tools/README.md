@@ -17,6 +17,23 @@ Depois de editar e salvar as planilhas, execute na raiz do projeto:
 python tools/atualizar_campeonatos.py
 ```
 
+## Pontuações parciais
+
+O arquivo `tools/atualizar_parciais.py` consulta a API pública do Cartola FC,
+identifica a rodada ainda não preenchida nas cinco séries e grava o resultado em
+`dados/parciais.json`. Os IDs encontrados para os participantes ficam em
+`dados/times-cartola.json`.
+
+Execução manual:
+
+```powershell
+python tools/atualizar_parciais.py
+```
+
+No GitHub, o workflow `.github/workflows/atualizar-parciais.yml` executa a
+consulta a cada 10 minutos e só cria um commit quando o estado do mercado ou as
+pontuações realmente mudarem.
+
 O comando lê as Séries A–E, valida os dados e atualiza os arquivos em `dados/`.
 
 As validações incluem:

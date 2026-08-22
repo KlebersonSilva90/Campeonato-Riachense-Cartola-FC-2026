@@ -59,6 +59,29 @@
           </div>
         </section>
 
+        <section class="painel-parcial" aria-labelledby="titulo-parcial">
+          <header>
+            <div>
+              <span class="indicador-ao-vivo" aria-hidden="true"></span>
+              <h2 id="titulo-parcial">CONFRONTO DA RODADA</h2>
+            </div>
+            <button id="atualizar-parcial" type="button">ATUALIZAR</button>
+          </header>
+          <p id="status-parcial" class="status-dados" role="status">Verificando pontuações parciais…</p>
+          <div class="placar-parcial" aria-live="polite">
+            <article id="lado-time-parcial">
+              <strong id="nome-time-parcial">—</strong>
+              <span id="pontos-time-parcial">—</span>
+            </article>
+            <b>×</b>
+            <article id="lado-adversario-parcial">
+              <strong id="nome-adversario-parcial">—</strong>
+              <span id="pontos-adversario-parcial">—</span>
+            </article>
+          </div>
+          <p id="resultado-parcial" class="resultado-parcial">Aguardando dados da rodada.</p>
+        </section>
+
         <section aria-labelledby="titulo-resumo-time">
           <h2 id="titulo-resumo-time">RESUMO DA CAMPANHA</h2>
           <div class="grade-resumo-time">

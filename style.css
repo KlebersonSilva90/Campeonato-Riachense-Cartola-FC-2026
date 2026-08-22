@@ -748,6 +748,119 @@ button:focus-visible {
   font-size: 2.7rem;
 }
 
+.painel-parcial {
+  margin-top: 14px;
+  padding: 13px 16px;
+  border: 2px solid #6b3d00;
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 5px 14px rgba(75, 38, 0, 0.14);
+}
+
+.painel-parcial > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.painel-parcial > header > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.painel-parcial h2 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.indicador-ao-vivo {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #c62828;
+  box-shadow: 0 0 0 4px rgba(198, 40, 40, 0.17);
+}
+
+#atualizar-parcial {
+  min-height: 38px;
+  padding: 6px 11px;
+  border: 2px solid #4b2a00;
+  border-radius: 8px;
+  background: #fff4d0;
+  color: #3d2100;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#atualizar-parcial:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+.painel-parcial > .status-dados {
+  margin: 7px 0 10px;
+  text-align: left;
+}
+
+.placar-parcial {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: stretch;
+  gap: 8px;
+}
+
+.placar-parcial > b {
+  align-self: center;
+  color: #775f43;
+  font-size: 1.15rem;
+}
+
+.placar-parcial article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 58px;
+  padding: 9px 12px;
+  border: 2px solid #aaa;
+  border-radius: 9px;
+  background: #f6f3ee;
+}
+
+.placar-parcial article.vencendo {
+  border-color: var(--cor-vencedor-borda);
+  background: var(--cor-vencedor);
+}
+
+.placar-parcial article.empatando {
+  border-color: var(--cor-empate-borda);
+  background: var(--cor-empate);
+}
+
+.placar-parcial article.perdendo {
+  opacity: 0.8;
+}
+
+.placar-parcial article > strong {
+  font-size: 0.88rem;
+}
+
+.placar-parcial article > span {
+  flex: 0 0 auto;
+  font-size: 1.35rem;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+}
+
+.resultado-parcial {
+  margin: 9px 0 0;
+  color: #4b2a00;
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
 .grade-resumo-time {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -1177,6 +1290,45 @@ button:focus-visible {
 
   .posicao-time strong {
     font-size: 2rem;
+  }
+
+  .painel-parcial {
+    padding: 10px;
+  }
+
+  .painel-parcial h2 {
+    font-size: 0.9rem;
+  }
+
+  #atualizar-parcial {
+    min-height: 36px;
+    padding: 5px 8px;
+    font-size: 0.68rem;
+  }
+
+  .placar-parcial {
+    gap: 4px;
+  }
+
+  .placar-parcial article {
+    display: grid;
+    gap: 4px;
+    min-height: 70px;
+    padding: 7px;
+    text-align: center;
+  }
+
+  .placar-parcial article > strong {
+    font-size: 0.72rem;
+  }
+
+  .placar-parcial article > span {
+    font-size: 1.08rem;
+  }
+
+  .resultado-parcial {
+    font-size: 0.74rem;
+    text-align: left !important;
   }
 
   .grade-resumo-time article {

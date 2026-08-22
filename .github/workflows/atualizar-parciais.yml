@@ -1,0 +1,35 @@
+name: Atualizar parciais do Cartola FC
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-parciais
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Consultar Cartola FC
+        run: python tools/atualizar_parciais.py
+      - name: Publicar dados alterados
+        run: |
+          if git diff --quiet -- dados/parciais.json dados/times-cartola.json; then
+            echo "Nenhuma alteração nas parciais."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- dados/parciais.json dados/times-cartola.json
+          git commit -m "Atualiza parciais do Cartola FC"
+          git push

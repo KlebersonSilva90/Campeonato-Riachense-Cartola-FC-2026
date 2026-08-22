@@ -1,4 +1,4 @@
-const estadoTimes = { campeonatos: [], campeonato: null, time: "" };
+const estadoTimes = { campeonatos: [], campeonato: null, time: "", parciais: null };
 const formatadorTimes = new Intl.NumberFormat("pt-BR", {
   minimumFractionDigits: 2,
   maximumFractionDigits: 2,
@@ -64,6 +64,100 @@ function tabelaAteRodada(campeonato, numeroRodada) {
 function posicaoNaRodada(campeonato, nomeTime, rodada) {
   const indice = tabelaAteRodada(campeonato, rodada).findIndex((item) => item.time === nomeTime);
   return indice >= 0 ? indice + 1 : null;
+}
+
+function rodadaEmAberto(campeonato) {
+  return campeonato.rodadas.find((rodada) => rodada.partidas.some((partida) =>
+    partida.mandante.pontuacao === null || partida.visitante.pontuacao === null))?.numero ||
+    campeonato.rodadas.at(-1)?.numero;
+}
+
+function confrontoDoTime(campeonato, nomeTime, numeroRodada) {
+  const rodada = campeonato.rodadas.find((item) => item.numero === numeroRodada);
+  if (!rodada) return null;
+  const partida = rodada.partidas.find((item) =>
+    item.mandante.time === nomeTime || item.visitante.time === nomeTime);
+  if (!partida) return null;
+  return partida.mandante.time === nomeTime
+    ? { time: partida.mandante, adversario: partida.visitante }
+    : { time: partida.visitante, adversario: partida.mandante };
+}
+
+function formatarAtualizacao(dataIso) {
+  if (!dataIso) return "";
+  const data = new Date(dataIso);
+  if (Number.isNaN(data.getTime())) return "";
+  return data.toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" });
+}
+
+function renderizarParcial() {
+  const campeonato = estadoTimes.campeonato;
+  if (!campeonato || !estadoTimes.time) return;
+  const dados = estadoTimes.parciais || {};
+  const numeroRodada = dados.rodadaCampeonato || rodadaEmAberto(campeonato);
+  const confronto = confrontoDoTime(campeonato, estadoTimes.time, numeroRodada);
+  const ladoTime = document.getElementById("lado-time-parcial");
+  const ladoAdversario = document.getElementById("lado-adversario-parcial");
+  [ladoTime, ladoAdversario].forEach((lado) => lado?.classList.remove("vencendo", "perdendo", "empatando"));
+
+  if (!confronto) {
+    textoTimes("nome-time-parcial", estadoTimes.time);
+    textoTimes("nome-adversario-parcial", "Adversário não identificado");
+    textoTimes("pontos-time-parcial", "—");
+    textoTimes("pontos-adversario-parcial", "—");
+    textoTimes("status-parcial", "Não foi encontrado confronto para esta rodada.");
+    textoTimes("resultado-parcial", "Confira se a tabela da rodada já foi preenchida.");
+    return;
+  }
+
+  const chaveTime = `${campeonato.serie}|${confronto.time.time}`;
+  const chaveAdversario = `${campeonato.serie}|${confronto.adversario.time}`;
+  const parcialTime = dados.pontuacoes?.[chaveTime];
+  const parcialAdversario = dados.pontuacoes?.[chaveAdversario];
+  textoTimes("nome-time-parcial", confronto.time.time);
+  textoTimes("nome-adversario-parcial", confronto.adversario.time);
+  textoTimes("pontos-time-parcial", pontosTimes(parcialTime));
+  textoTimes("pontos-adversario-parcial", pontosTimes(parcialAdversario));
+
+  const atualizacao = formatarAtualizacao(dados.atualizadoEm);
+  textoTimes("status-parcial", `${numeroRodada}ª rodada do campeonato${dados.rodadaCartola ? ` · ${dados.rodadaCartola}ª rodada do Cartola` : ""}${atualizacao ? ` · atualizado em ${atualizacao}` : ""}`);
+
+  if (typeof parcialTime !== "number" || typeof parcialAdversario !== "number") {
+    textoTimes("resultado-parcial", dados.mensagem || "Aguardando pontuações parciais.");
+    return;
+  }
+
+  const diferenca = parcialTime - parcialAdversario;
+  if (Math.abs(diferenca) < 5) {
+    ladoTime?.classList.add("empatando");
+    ladoAdversario?.classList.add("empatando");
+    textoTimes("resultado-parcial", "EMPATE PARCIAL — diferença menor que 5 pontos.");
+  } else if (diferenca > 0) {
+    ladoTime?.classList.add("vencendo");
+    ladoAdversario?.classList.add("perdendo");
+    textoTimes("resultado-parcial", `${confronto.time.time} está vencendo por ${pontosTimes(Math.abs(diferenca))} pontos.`);
+  } else {
+    ladoTime?.classList.add("perdendo");
+    ladoAdversario?.classList.add("vencendo");
+    textoTimes("resultado-parcial", `${confronto.adversario.time} está vencendo por ${pontosTimes(Math.abs(diferenca))} pontos.`);
+  }
+}
+
+async function carregarParciais(forcarAtualizacao = false) {
+  const botao = document.getElementById("atualizar-parcial");
+  if (botao) botao.disabled = true;
+  try {
+    const sufixo = forcarAtualizacao ? `?t=${Date.now()}` : "";
+    const resposta = await fetch(`../dados/parciais.json${sufixo}`, { cache: forcarAtualizacao ? "no-store" : "default" });
+    if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
+    estadoTimes.parciais = await resposta.json();
+  } catch (erro) {
+    estadoTimes.parciais = { mensagem: "Não foi possível consultar as parciais neste momento.", pontuacoes: {} };
+    console.error("Erro ao carregar as parciais:", erro);
+  } finally {
+    if (botao) botao.disabled = false;
+    renderizarParcial();
+  }
 }
 
 function criarOpcao(valor, rotulo) {
@@ -162,6 +256,7 @@ function renderizarTime() {
   textoTimes("status-times", `${historico.length} rodada(s) disputada(s) · dados atualizados automaticamente`);
   renderizarGrafico(historico);
   renderizarConfrontos(historico);
+  renderizarParcial();
 
   const url = new URL(window.location.href);
   url.searchParams.set("serie", campeonato.serie);
@@ -181,6 +276,7 @@ async function carregarTimes() {
     const respostas = await Promise.all(["a", "b", "c", "d", "e"].map((serie) => fetch(`../dados/serie-${serie}.json`)));
     if (respostas.some((resposta) => !resposta.ok)) throw new Error("Falha ao carregar um dos campeonatos");
     estadoTimes.campeonatos = await Promise.all(respostas.map((resposta) => resposta.json()));
+    await carregarParciais();
     const seletorSerie = document.getElementById("seletor-serie");
     estadoTimes.campeonatos.forEach((campeonato) => seletorSerie.append(criarOpcao(campeonato.serie, `SÉRIE ${campeonato.serie}`)));
     const parametros = new URLSearchParams(window.location.search);
@@ -190,6 +286,7 @@ async function carregarTimes() {
       estadoTimes.time = evento.target.value;
       renderizarTime();
     });
+    document.getElementById("atualizar-parcial").addEventListener("click", () => carregarParciais(true));
   } catch (erro) {
     textoTimes("status-times", "Não foi possível carregar o histórico dos times.");
     console.error("Erro ao carregar os times:", erro);
