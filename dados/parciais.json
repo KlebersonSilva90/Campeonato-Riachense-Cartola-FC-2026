@@ -1,9 +1,9 @@
 {
-  "atualizadoEm": "2026-08-23T10:58:58.837116+00:00",
+  "atualizadoEm": "2026-08-23T11:30:23.834729+00:00",
   "rodadaCampeonato": 5,
   "rodadaCartola": 24,
   "mercadoFechado": true,
-  "bolaRolando": true,
+  "bolaRolando": false,
   "disponivel": true,
   "mensagem": "Pontuações parciais da rodada em andamento.",
   "pontuacoes": {
