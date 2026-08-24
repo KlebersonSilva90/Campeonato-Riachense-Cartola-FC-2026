@@ -148,12 +148,13 @@ def atleta_na_parcial(atleta, parciais):
     return {
         "id": atleta_id,
         "posicao": atleta.get("posicao_id"),
+        "clube": atleta.get("clube_id"),
         "pontos": valor_parcial(parcial),
         "entrou": bool(parcial and parcial.get("entrou_em_campo")),
     }
 
 
-def calcular_pontuacao(time_cartola, parciais):
+def calcular_pontuacao(time_cartola, parciais, clubes_com_jogo_encerrado=None):
     atletas = time_cartola.get("atletas") or []
     if not atletas:
         return None
@@ -170,7 +171,13 @@ def calcular_pontuacao(time_cartola, parciais):
     for reserva in reservas:
         ausentes = [
             titular for titular in titulares
-            if titular["posicao"] == reserva["posicao"] and not titular["entrou"] and titular["id"] in ativos
+            if titular["posicao"] == reserva["posicao"]
+            and not titular["entrou"]
+            and titular["id"] in ativos
+            and (
+                clubes_com_jogo_encerrado is None
+                or titular["clube"] in clubes_com_jogo_encerrado
+            )
         ]
         if not ausentes or not reserva["entrou"] or reserva["pontos"] <= 0:
             continue
@@ -198,6 +205,22 @@ def calcular_pontuacao(time_cartola, parciais):
     if capitao in ativos:
         total += ativos[capitao]["pontos"] * 0.5
     return round(total, 2)
+
+
+def clubes_com_partida_encerrada(resposta_partidas):
+    encerrados = set()
+    if not isinstance(resposta_partidas, dict):
+        return encerrados
+    for partida in resposta_partidas.get("partidas") or []:
+        terminou = (
+            partida.get("periodo_tr") == "POS_JOGO"
+            or partida.get("status_transmissao_tr") == "ENCERRADA"
+        )
+        if terminou:
+            encerrados.add(partida.get("clube_casa_id"))
+            encerrados.add(partida.get("clube_visitante_id"))
+    encerrados.discard(None)
+    return encerrados
 
 
 def salvar(arquivo: Path, dados):
@@ -255,6 +278,8 @@ def main():
     if fechado and rodada_cartola:
         parciais = mapa_parciais(consultar("/atletas/pontuados"))
         if parciais:
+            partidas = consultar(f"/partidas/{rodada_cartola}") or {}
+            clubes_encerrados = clubes_com_partida_encerrada(partidas)
             for chave in chaves_rodada:
                 time_id = mapa["times"].get(chave, {}).get("timeId")
                 if not time_id:
@@ -262,7 +287,9 @@ def main():
                     continue
                 try:
                     escalacao = consultar(f"/time/id/{time_id}") or {}
-                    saida["pontuacoes"][chave] = calcular_pontuacao(escalacao, parciais)
+                    saida["pontuacoes"][chave] = calcular_pontuacao(
+                        escalacao, parciais, clubes_encerrados
+                    )
                 except (HTTPError, URLError, TimeoutError):
                     saida["pontuacoes"][chave] = None
                 time.sleep(0.12)

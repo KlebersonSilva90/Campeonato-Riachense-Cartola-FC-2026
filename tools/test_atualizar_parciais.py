@@ -3,8 +3,8 @@ import unittest
 from atualizar_parciais import calcular_pontuacao
 
 
-def atleta(atleta_id, posicao):
-    return {"atleta_id": atleta_id, "posicao_id": posicao}
+def atleta(atleta_id, posicao, clube=1):
+    return {"atleta_id": atleta_id, "posicao_id": posicao, "clube_id": clube}
 
 
 def parcial(pontos, entrou=True):
@@ -58,6 +58,19 @@ class CalculoParciaisTest(unittest.TestCase):
         }
         pontuacoes = {"2": parcial(2), "3": parcial(8)}
         self.assertEqual(calcular_pontuacao(time, pontuacoes), 10)
+
+    def test_nao_usa_reserva_antes_do_jogo_do_titular(self):
+        time = {
+            "capitao_id": None,
+            "reserva_luxo_id": None,
+            "atletas": [atleta(1, 4, clube=263), atleta(2, 4, clube=275)],
+            "reservas": [atleta(3, 4, clube=275)],
+        }
+        pontuacoes = {"2": parcial(6.5), "3": parcial(10.4)}
+        self.assertEqual(
+            calcular_pontuacao(time, pontuacoes, clubes_com_jogo_encerrado={275}),
+            6.5,
+        )
 
 
 if __name__ == "__main__":
