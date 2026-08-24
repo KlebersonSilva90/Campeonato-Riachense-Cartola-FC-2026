@@ -142,22 +142,62 @@ def valor_parcial(atleta):
     return 0.0
 
 
+def atleta_na_parcial(atleta, parciais):
+    atleta_id = str(atleta.get("atleta_id") or atleta.get("id") or "")
+    parcial = parciais.get(atleta_id)
+    return {
+        "id": atleta_id,
+        "posicao": atleta.get("posicao_id"),
+        "pontos": valor_parcial(parcial),
+        "entrou": bool(parcial and parcial.get("entrou_em_campo")),
+    }
+
+
 def calcular_pontuacao(time_cartola, parciais):
     atletas = time_cartola.get("atletas") or []
     if not atletas:
         return None
     capitao = str(time_cartola.get("capitao_id") or "")
-    total = 0.0
-    encontrados = 0
-    for atleta in atletas:
-        atleta_id = str(atleta.get("atleta_id") or atleta.get("id") or "")
-        parcial = parciais.get(atleta_id)
-        if parcial is None:
+    titulares = [atleta_na_parcial(atleta, parciais) for atleta in atletas]
+    reservas = [atleta_na_parcial(atleta, parciais) for atleta in (time_cartola.get("reservas") or [])]
+    ativos = {atleta["id"]: atleta for atleta in titulares}
+    reserva_luxo = str(time_cartola.get("reserva_luxo_id") or "")
+    luxo_usado_como_reserva_normal = False
+
+    # Banco normal: um reserva que entrou substitui um titular da mesma posição
+    # que não entrou em campo. O Cartola só efetiva a troca se o reserva pontuar
+    # acima de zero.
+    for reserva in reservas:
+        ausentes = [
+            titular for titular in titulares
+            if titular["posicao"] == reserva["posicao"] and not titular["entrou"] and titular["id"] in ativos
+        ]
+        if not ausentes or not reserva["entrou"] or reserva["pontos"] <= 0:
             continue
-        pontos = valor_parcial(parcial)
-        total += pontos * (1.5 if atleta_id == capitao else 1)
-        encontrados += 1
-    return round(total, 2) if encontrados else 0.0
+        substituido = next((item for item in ausentes if item["id"] == capitao), ausentes[0])
+        ativos.pop(substituido["id"], None)
+        ativos[reserva["id"]] = reserva
+        if reserva["id"] == reserva_luxo:
+            luxo_usado_como_reserva_normal = True
+
+    # Reserva de Luxo: se não foi necessário cobrir um ausente, troca o titular
+    # de menor pontuação da mesma posição, desde que todos tenham jogado e o
+    # reserva tenha pontuação superior.
+    luxo = next((reserva for reserva in reservas if reserva["id"] == reserva_luxo), None)
+    if luxo and luxo["entrou"] and not luxo_usado_como_reserva_normal:
+        titulares_posicao = [item for item in titulares if item["posicao"] == luxo["posicao"]]
+        if titulares_posicao and all(item["entrou"] for item in titulares_posicao):
+            menor = min(titulares_posicao, key=lambda item: (item["pontos"], item["id"] != capitao))
+            if luxo["pontos"] > menor["pontos"]:
+                ativos.pop(menor["id"], None)
+                ativos[luxo["id"]] = luxo
+
+    if not any(atleta["entrou"] for atleta in titulares + reservas):
+        return 0.0
+    total = sum(atleta["pontos"] for atleta in ativos.values())
+    if capitao in ativos:
+        total += ativos[capitao]["pontos"] * 0.5
+    return round(total, 2)
 
 
 def salvar(arquivo: Path, dados):

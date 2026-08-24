@@ -22,7 +22,8 @@ python tools/atualizar_campeonatos.py
 O arquivo `tools/atualizar_parciais.py` consulta a API pública do Cartola FC,
 identifica a rodada ainda não preenchida nas cinco séries e grava o resultado em
 `dados/parciais.json`. Os IDs encontrados para os participantes ficam em
-`dados/times-cartola.json`.
+`dados/times-cartola.json`. O cálculo considera capitão, substituição normal do
+banco e Reserva de Luxo.
 
 Execução manual:
 
