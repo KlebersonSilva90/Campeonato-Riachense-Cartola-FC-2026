@@ -1,9 +1,9 @@
 {
-  "atualizadoEm": "2026-11-04T03:23:59.968537+00:00",
+  "atualizadoEm": "2026-11-04T11:27:45.815071+00:00",
   "rodadaCampeonato": 5,
   "rodadaCartola": 34,
   "mercadoFechado": true,
-  "bolaRolando": true,
+  "bolaRolando": false,
   "disponivel": true,
   "mensagem": "Pontuações parciais da rodada em andamento.",
   "pontuacoes": {
